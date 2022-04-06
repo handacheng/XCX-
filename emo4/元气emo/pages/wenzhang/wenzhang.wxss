@@ -1,0 +1,18 @@
+/* pages/wenzhang/wenzhang.wxss */
+/* pages/book/book.wxss */
+.tu{
+  margin-left: 130rpx;
+  width: 500rpx;
+  height: 350rpx;
+}
+.biaoti{
+  text-align: center;
+  font-size: 48rpx;
+  font-weight: 600;
+}
+.zhang{
+  font-weight: 600;
+  margin-left: 20rpx;
+  font-size: 34rpx;
+  margin-top: 20rpx;
+}

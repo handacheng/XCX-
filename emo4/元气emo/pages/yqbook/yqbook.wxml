@@ -1,0 +1,16 @@
+<!--pages/bookroom/wenzhang.wxml-->
+<view class="sousuokuang">
+    <image src="https://s3.bmp.ovh/imgs/2022/03/86d55363f292f687.png"></image>
+    <input type="text" placeholder="心灵导师：情绪管理全书"/>
+</view>
+<view  wx:for="{{ha}}" wx:key="index"  class="kuang"  >
+<view data-id="{{item.id}}"  catchtap="tologs" >
+   <view class="biaoti">{{item.title}}</view>
+   <view class="miaosu">作者：{{item.autor}}</view>
+</view>
+</view>
+<!-- <view class="kuang">
+   <view class="biaoti">情商</view>
+   <view class="miaosu">情商比智商更重要，它可以帮助我们管理自己和他人的情绪，让我们更成功。</view>
+</view> -->
+<button class="add" catchtap="stologs"  style="width: 600rpx; height: 100rpx;"> 添加文章</button>

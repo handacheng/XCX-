@@ -1,0 +1,25 @@
+<view class="headView">
+    <open-data class="icon" mode="aspectFit" type="userAvatarUrl"></open-data>
+    <view class='icon'></view>
+  </view>
+  <text>\n</text>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <text>\n</text>
+  <text>\n</text>
+  <view>
+    <text class="wenzi">申请获取以下权限</text>
+  </view>
+  <text>\n</text>
+  <view>
+    <text class="wenzi1">获取您的公开信息(昵称，头像等)</text>
+  </view>
+  <text>\n</text>
+  <text>\n</text>
+  <!-- <view> -->
+    <!-- <button type="primary">登录</button> -->
+  <!-- </view> -->
+  <view wx:if="{{!(userInfo)}}" class="btn-login">
+	<button type="primary" bindtap="getUserProfile">授权登陆</button>
+</view>
+  

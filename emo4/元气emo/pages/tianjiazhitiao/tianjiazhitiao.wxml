@@ -1,0 +1,5 @@
+<view wx:for="{{navlist}}" wx:key="index"  >
+<view>{{item.text}}</view>
+</view>
+<input type="text" name='zhitiao' class="inputGoods" placeholder="请输入你的纸条" bindinput="zhitiaoInput" />
+<button class="loginBtn" size="default" bindtap="clickButton" form-type="submit">提交</button>

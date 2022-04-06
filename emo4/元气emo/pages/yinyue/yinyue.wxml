@@ -1,0 +1,16 @@
+<view bindtap="search" class='searchContainer'>
+  <icon class='searchIcon' type='search' color='#999' size='23'></icon>
+  <input type='text' confirm-type='search' bindinput="handleinput" bindconfirm="sousuo" placeholder-class='placerStyle'
+    placeholder='点击搜索'></input>
+</view>
+<view wx:for="{{music}}" wx:key="*this" class="a">
+  <view bindtap="tiao" data-id="{{item.hash}}" class="gezi">
+    <view>
+      <text style="font-size:35rpx">{{item.remark}}</text>
+    </view>
+    <view class="admin">
+      <text style="color: rgb(94, 94, 80);">{{item.filename}}</text>
+    </view>
+  </view>
+</view>
+

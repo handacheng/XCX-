@@ -1,0 +1,20 @@
+/* pages/diary add/diary add.wxss */
+.biaoti{
+  border-bottom: 2rpx solid #bbbbbb;
+  width: 500rpx;
+  padding-left: 20rpx;
+}
+.kuang{
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+  margin-left: 4rpx;
+  border-radius: 20rpx;
+  border: 2rpx solid #bbbbbb;
+  width: 715rpx;
+  height: 500rpx;
+}
+.anniu{
+  font-size: 36rpx;
+  margin-top: 60rpx;
+  background-color: rgb(50, 175, 106);
+}

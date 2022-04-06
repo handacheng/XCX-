@@ -1,0 +1,9 @@
+
+<!-- <view wx:for="{{haha}}" wx:key="index"><view> {{item.concent}}</view></view>
+<view wx:for="{{haha}}" wx:key="index"><view> {{item.addtime}}</view></view> -->
+<image class="tu" src="https://s3.bmp.ovh/imgs/2022/03/7661b0056b120923.jpg"></image>
+<view wx:for="{{haha}}" wx:key="index">
+<view class="biaoti">{{item.title}}</view>
+<view style="text-align: center; font-size: 32rpx;margin-top: 10rpx;margin-bottom: 20rpx;">作者：阿巴阿巴阿巴阿巴</view>
+<view style="font-size: 30rpx;text-indent: 2rem;padding: 10rpx 20rpx;">{{item.concent}}</view>
+</view>
