@@ -1,0 +1,73 @@
+<view style="display: flex; margin-top: 20rpx;">
+<button class="CreateRoom" style="width: 250rpx;">创建歌房</button>
+<button class="Quickjoin" style="width: 250rpx;">快捷加入</button>
+</view>
+<view style="display: flex; margin-top: 40rpx;">
+<view class="juxin" style="margin-left: 30rpx;margin-right: 50rpx;">全部</view>
+<view style="margin-right: 50rpx; font-size: 28rpx;">最新</view>
+<view style="margin-right: 50rpx; font-size: 28rpx;">一起听歌</view>
+<view style="margin-right: 50rpx; font-size: 28rpx;">元气k歌</view>
+<view style="font-size: 28rpx;">元气练歌</view>
+</view>
+<view class="juxin02" style="margin-left: 15rpx; background-color: #bbece1;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 100rpx;width: 110rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">练歌房</view>
+  <text style="color: #898585;">3人</text>
+</view>
+<text class="wenzi" style="top: 50rpx; left: 5rpx;">练歌 | 欢迎路人加入</text>
+<image class="maikefeng" src="/images/麦克风.png"></image>
+<image class="touxiang" src="/images/v2_r47gtv.jpg" style="position: relative; right: 80rpx;top: 90rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gv2.jpg" style="position: relative; right: 110rpx; top: 90rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; right: 140rpx;top: 90rpx;"></image>
+</view>
+<view class="juxin02" style="position: relative; margin-left: 380rpx; bottom: 320rpx; background-color: #b8cae6;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 100rpx;width: 110rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">练歌房</view>
+  <text style="color: #898585;">1人</text>
+</view>
+<text class="wenzi" style="top: 20rpx; left: 40rpx;">练歌 | 自主练歌</text>
+<image src="/images/录音.png" style="position: relative;left: 20rpx; top: 140rpx; width: 60rpx; height: 60rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; top: 70rpx;"></image>
+</view>
+<view class="juxin02" style="position: relative; margin-left: 15rpx; bottom: 320rpx; background-color: #f7e1a4;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 100rpx;width: 110rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">元气k歌</view>
+  <text style="color: #898585;">1人</text>
+</view>
+<text class="wenzi" style="top: 50rpx; left: 5rpx;">一首歌让你拒绝emo</text>
+<image src="/images/录音.png" style="position: relative;left: 245rpx; top: 85rpx; width: 60rpx; height: 60rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; top: 90rpx;right: 50rpx;"></image>
+</view>
+<view class="juxin02" style="position: relative; margin-left: 380rpx;bottom: 640rpx; background-color: #acf4b0;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 100rpx;width: 110rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">元气k歌</view>
+  <text style="color: #898585;">3人</text>
+</view>
+<text class="wenzi" style="top: 50rpx; left: 5rpx;">小陈爱吃鸡的k歌房</text>
+<image src="/images/录音.png" style="position: relative; width: 70rpx; height: 70rpx; top: 85rpx;left: 230rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; right: 70rpx;top: 85rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; right: 100rpx; top: 85rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative; right: 130rpx;top: 85rpx;"></image>
+</view>
+<view class="juxin02" style="position: absolute;bottom: 50rpx; margin-left: 15rpx;background-color: #e6d6f4;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 90rpx;width: 120rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">一起听歌</view>
+  <text style="color: #898585;">10人</text>
+</view>
+<text class="wenzi" style="top: 50rpx; left: 20rpx;">兴趣交流 自嗨屋</text>
+<image class="maikefeng" src="/images/录音.png" style="position: relative;top: 90rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative;right: 80rpx; top: 80rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative;right: 110rpx; top: 80rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative;right: 140rpx; top: 80rpx;"></image>
+</view>
+<view class="juxin02" style="position: absolute;bottom: 50rpx; margin-left: 380rpx;background-color: #dfc8bc;">
+<view class="liangefang">
+  <view style="position: relative;margin-left: 10rpx; margin-right: 90rpx;width: 120rpx;background-color: #999797; color: white;border-radius: 18rpx;font-size: 28rpx;text-align: center;">练歌房</view>
+  <text style="color: #898585;">6人</text>
+</view>
+<text class="wenzi" style="top: 20rpx; left: 50rpx;">小韩爱减肥</text>
+<image src="/images/录音.png" style="position: relative;left: 80rpx; top: 120rpx; width: 60rpx; height: 60rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gtv.jpg" style="position: relative;right: 225rpx; top: 130rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gv2.jpg" style="position: relative;left: 28rpx; top: 60rpx;"></image>
+<image class="touxiang" src="/images/v2_r47gw7.jpg" style="position: relative;top: 60rpx;"></image>
+</view>

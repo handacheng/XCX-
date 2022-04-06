@@ -1,0 +1,47 @@
+
+<view class="indexcontainer">
+  <swiper class="banners" indicator-dots='true' indicator-color='white'	indicator-active-color='grey' autoplay="true" interval="2000">
+    <swiper-item>
+       <image src="https://s3.bmp.ovh/imgs/2022/02/3e10cc0cb16f807a.png"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s3.bmp.ovh/imgs/2022/02/60dddf37397b854a.png"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BiyRA.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s3.bmp.ovh/imgs/2022/02/6c72c4530a899663.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<text>\n</text>
+<view class="navcontainer">
+  <!-- <view class="navitem" catchtap="ktologs"> 
+    <image src="https://s3.bmp.ovh/imgs/2022/02/82b15fc1c72cb167.png"></image>
+    <text> 元气K歌</text>
+  </view> -->
+  <view class="navitem" catchtap="wtologs"> 
+    <image src="https://s3.bmp.ovh/imgs/2022/02/ce7a30b869aba19e.png"></image>
+    <text> 树洞屋</text>
+  </view>
+  <view class="navitem" catchtap="btologs"> 
+    <image src="https://s3.bmp.ovh/imgs/2022/02/22ee4fd5343483bd.png"></image>
+    <text> 元气书房</text>
+  </view>
+
+</view>
+<text>\n</text>
+<view class="tu1" catchtap="tologs">
+<image class="tu" src="https://s4.ax1x.com/2022/01/18/7BFlOP.png"></image>
+</view>
+<text>\n</text>
+<view >
+  <text style="padding:30rpx">元气放送|</text>
+  <text class="wenzi">选择一个元气功能放松一下吧</text>
+</view>
+<text>\n</text>
+<view class="tu2" >
+<image class="tu3" catchtap="stologs" src="https://s4.ax1x.com/2022/01/18/7BFNWj.jpg"></image>
+<image class="tu3" catchtap="xqtologs" src="https://s4.ax1x.com/2022/01/18/7BFrwT.jpg"></image>
+</view>

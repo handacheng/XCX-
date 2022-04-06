@@ -1,0 +1,57 @@
+.me{
+  display: flex;
+}
+.me image{
+  width: 180rpx;
+  height: 180rpx;
+  display: inline-block;
+  overflow: hidden;
+}
+.me button{
+  border:none;
+}
+.divlinex{
+  background: #e4e6ed;
+  width: 100%;
+  height: 1rpx;
+}
+.meimages{
+  display: flex;
+}
+.meimages image{
+  width: 130rpx;
+  height: 130rpx;
+}
+.metu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+/* .information{
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+} */
+.function{
+  display: flex;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}
+
+.function image{
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 18rpx;
+}
+.function text{
+  width: 170rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height:100rpx ;
+}
+/* .arrow{
+  width: 10rpx;
+  height: 10rpx;
+  text-align:right
+
+} */

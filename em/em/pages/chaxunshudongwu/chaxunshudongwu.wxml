@@ -1,0 +1,13 @@
+<!--pages/jianyige/jianyige.wxml-->
+<view class="beijing">
+  <view class="weizhi">
+   <image class="touxiang" src="https://s3.bmp.ovh/imgs/2022/03/af909adeba12c3cc.jpg"></image>
+   <view style="font-size: 48rpx;font-weight: 600;letter-spacing: 4rpx;text-align: center;">小栗子deli</view>
+  </view>
+  <view wx:for="{{haha}}" wx:key="index"  class="kuang"><view style="width: 550rpx;padding: 30rpx 0 20rpx 30rpx;text-indent: 2rem;">
+    {{item.title}}</view>
+  </view>
+  <button catchtap="tologs" class="renghuiqu" style="width: 200rpx;height: 80rpx;">扔回去</button>
+  <button class="anwei" style="width: 230rpx;height: 80rpx;">安慰他(她)</button>
+</view>
+

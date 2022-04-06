@@ -1,0 +1,182 @@
+.sousuokuang{
+  margin-top: 10rpx;
+  padding-left: 30rpx;
+  padding-top: 10rpx;
+  display: flex;
+  background-color: #eaeaea;
+  width: 700rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+  margin-left: 10rpx;
+}
+.sousuokuang image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.wenzihang{
+  margin-top: 20rpx;
+  margin-left: 180rpx;
+}
+.wenzihang text{
+  font-size: 25rpx;
+  margin-right: 120rpx;
+}
+.tuijian{
+  margin-left: 65rpx;
+  margin-top: 30rpx;
+}
+.tuijian text{
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-right: 90rpx;
+}
+.tuijian text1{
+  font-size: 28rpx;
+}
+.xinlingdaoshi{
+  box-shadow: 0rpx 4rpx 12rpx 0rpx rgb(0, 0, 0,0.4);
+  border: 3rpx solid #ddd;
+  border-radius: 24rpx;
+  width: 680rpx;
+  height: 180rpx;
+  margin-left: 18rpx;
+  margin-top: 20rpx;
+  padding-top: 25rpx;
+  padding-left: 30rpx;
+}
+.tupian{
+  width: 210rpx;
+  height: 155rpx;
+}
+.xinlingdaoshi text{
+  font-size: 36rpx;
+  font-weight: 700;
+  font-style: oblique;
+  position: relative;
+  margin-right: 35rpx;
+}
+.wenzi{
+  font-size: 25rpx;
+  font-weight: 700;
+  width: 450rpx;
+
+}
+.yuedu{
+  position: relative;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 25rpx;
+}
+.xinlingdaoshi text1{
+  position: relative;
+  font-weight: 600;
+  color: red;
+  font-size: 28rpx;
+}
+.juxin{
+  display: flex;
+  margin-top: 40rpx;
+}
+.qingshang{
+  position: relative;
+  width: 160rpx;
+  height: 180rpx;
+}
+.wz{
+  position: relative;
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.bubaoyuan{
+  position: relative;
+  width: 160rpx;
+  height: 180rpx;
+}
+.sign{
+  position: relative;
+  font-size: 24rpx;
+  width: 180rpx;
+  text-align: center;
+  border: 2rpx solid #bbb;
+  border-radius: 15rpx;
+}
+.sign1{
+  position: relative;
+  font-size: 24rpx;
+  width: 100rpx;
+  text-align: center;
+  border: 2rpx solid #bbb;
+  border-radius: 15rpx;
+}
+.kongju{
+  position: relative;
+  width: 160rpx;
+  height: 180rpx;
+}
+.chongtu{
+  position: relative;
+  width: 130rpx;
+  height: 180rpx;
+}
+.sign2{
+  position: relative;
+  font-size: 24rpx;
+  width: 100rpx;
+  text-align: center;
+  border: 2rpx solid #bbb;
+  border-radius: 15rpx;
+}
+.sign3{
+  position: relative;
+  font-size: 24rpx;
+  width: 100rpx;
+  text-align: center;
+  border: 2rpx solid #bbb;
+  border-radius: 15rpx;
+}
+.emotime{
+  margin-top: 15rpx;
+}
+.emotime text{
+  font-weight: 600;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 360rpx;
+}
+.jieyou{
+  width: 230rpx;
+  height: 300rpx;
+}
+.wenz{
+  position: relative;
+  font-weight: 600;
+  font-size: 35rpx;
+  margin-left: 30rpx;
+  top: -240rpx;
+}
+.jiexi{
+  position: relative;
+  text-indent: 2em;
+  font-size: 26rpx;
+  font-weight: 600;
+  width: 350rpx;
+}
+.start{
+  position: relative;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #b61708;
+  padding-left: 15rpx;
+  border-radius: 50rpx;
+  width: 135rpx;
+  border: 2rpx solid #bbb;
+}
+.insigth{
+  position: relative;
+  width: 100rpx;
+  border: 2rpx solid #bbb;
+  border-radius: 15rpx;
+  font-size: 25rpx;
+}

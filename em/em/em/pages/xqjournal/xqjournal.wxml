@@ -1,0 +1,64 @@
+<view class="calendar">
+	<view class="title flex">
+		<view class="flex">
+			<picker value="{{selectDay.year+'-'+selectDay.month}}" bindchange="editMonth" mode="date" fields="month" class="year-month">{{selectDay.year}}.{{selectDay.month>9?selectDay.month:"0"+selectDay.month}}</picker>
+			<view class="icon" bindtap="lastMonth" style="transform:rotate(180deg);">
+				<view class="iconfont icon-playfill"></view>
+			</view>
+			<view class="icon" bindtap="nextMonth">
+				<view class="iconfont icon-playfill"></view>
+			</view>
+		</view>
+		<view catchtap="openChange" class="flex open">
+			<view>{{open?"收起":"展开"}}</view>
+			<view style="margin-left:6rpx;font-size:20rpx" class="iconfont icon-{{open?'fold':'unfold'}}"></view>
+		</view>
+	</view>
+
+	<!-- 日历头部 -->
+	<view class="flex-around calendar-week">
+		<view class="view">日</view>
+		<view class="view">一</view>
+		<view class="view">二</view>
+		<view class="view">三</view>
+		<view class="view">四</view>
+		<view class="view">五</view>
+		<view class="view">六</view>
+	</view>
+
+	<!-- 日历主体 -->
+	<view class="flex-start flex-wrap calendar-main" style="height:{{dateList.length/7*72}}rpx">
+		<view wx:for="{{dateList}}" wx:key="dateList" class="day">
+			<view class="bg {{(item.year === selectDay.year && item.month === selectDay.month) ? (item.day === selectDay.day?'select':''): 'other-month'}}" catchtap="selectChange" data-day="{{item.day}}" data-year="{{item.year}}" data-month="{{item.month}}" data-date-string="{{item.dateString}}">
+				{{item.day}}
+			</view>
+			<view class="spot" wx:if="{{item.spot}}"></view>
+		</view>
+	</view>
+</view>
+
+<view class="tixing">
+  <text>让我来提醒你吧</text>
+</view>
+<image class="alarmclock" src="/images/闹钟.png"></image>
+<button class="receivetips" style="width: 240rpx;">接收提醒</button>
+<view class="punchclock">
+  <text>坚持每天打卡，把心情藏进日记里吧！</text>
+</view>
+<view style="width: 700rpx; border: 2rpx solid #bbb; margin-left: 25rpx; position: relative; bottom: 70rpx;"></view>
+  <text style="font-size: 38rpx; position: relative; bottom: 50rpx; margin-left: 20rpx;">记录</text>
+<view class="xinqingjilu">
+<text>你还没有写心情日记哦，
+    快去记录今天的心情吧</text>
+		
+</view>
+<button class="viewrecord" style="width: 220rpx; height: 30rpx;">查看心情记录</button>
+<!-- <button catchtap="stologs" class="add"style="width: 200rpx;" >添加</button> -->
+<!-- <button catchtap="stologs">添加</button> -->
+<view class="section" style="border-radius: 50rpx; border: 2rpx solid cornflowerblue; width: 250rpx; padding:20rpx; position: relative; bottom: 850rpx; left: 225rpx;">
+  <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+    <view class="picker">
+     时间 : {{time}}
+    </view>
+  </picker>
+</view>

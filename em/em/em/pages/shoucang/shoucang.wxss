@@ -1,0 +1,77 @@
+.juxin{
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+  padding-top: 15rpx;
+  height: 470rpx;
+  border-top: 4rpx solid #ddd;
+  border-bottom: 3rpx solid #ddd;
+}
+.square{
+  border-radius: 100%;
+  width: 140rpx;
+  height: 140rpx;
+}
+.shipin{
+  position: relative;
+  width: 80rpx;
+  height: 60rpx;
+  bottom: 38rpx;
+  right: 105rpx;
+}
+.collection text{
+  position: relative;
+  font-size: 25rpx;
+  right: 198rpx;
+  top: 35rpx;
+}
+.tupian{
+  position: relative;
+  width: 65rpx;
+  height: 65rpx;
+  right: 100rpx;
+  bottom: 185rpx;
+}
+.collection1 text{
+  position: relative;
+  font-size: 25rpx;
+  right: 180rpx;
+  bottom: 115rpx;
+}
+.yinfu{
+  position: relative;
+  width: 60rpx;
+  height: 60rpx;
+  right: 100rpx;
+  bottom: 335rpx;
+}
+.collection2 text{
+  font-size: 25rpx;
+  position: relative;
+  left: 535rpx;
+  bottom: 305rpx;
+}
+.biji{
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+  bottom: 310rpx;
+  right: 110rpx;
+}
+.collection3 text{
+  font-size: 25rpx;
+  position: relative;
+  right: 197rpx;
+  bottom: 245rpx;
+}
+.collection4{
+  font-size: 90rpx;
+  color: #ea68a2;
+  width: 100rpx;
+  height: 140rpx;
+  padding-left: 38rpx;
+  border-radius: 100%;
+  border: 3rpx solid #ea68a2;
+  position: relative;
+  bottom: 430rpx;
+  left: 290rpx;
+}

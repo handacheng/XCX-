@@ -1,0 +1,51 @@
+<view class="me">
+  <image src="https://s4.ax1x.com/2022/01/18/7BEgfg.png"></image>
+  <!-- <button plain="ture" style="position: relative; left: -199rpx; top: 52rpx; width: 172rpx; height: 78rpx; display: block; box-sizing: border-box; border-radius: 6rpx border：none border-color:transparent">登录</button> -->
+  <button  plain="ture" catchtap="tologs"style="position: relative; left: -239rpx; top: 52rpx; width: 180rpx; height: 90rpx; display: block; box-sizing: border-box">登录</button>
+</view>
+<text>\n</text>
+<view class="divlinex"></view>
+<view class="meimages">
+  <view class="metu" catchtap="stologs">
+  <image src="https://s4.ax1x.com/2022/01/18/7BE5mq.png"></image>
+  <!-- <text wx:for="{{haha}}" wx:key='*this'>{{item.name}}</text> -->
+  <text>元气日记</text>
+</view>
+<view class="metu" catchtap="ctologs">
+  <image src="https://s4.ax1x.com/2022/01/18/7BEo7V.png"></image>
+  <text>元气收藏</text>
+</view>
+</view>
+<text>\n</text>
+<view class="divlinex"></view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="information">
+  <view class="function" catchtap="sftologs">
+    <image src="https://s4.ax1x.com/2022/01/18/7BV3cj.png"></image>
+    <text>emo书圈</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function"  catchtap="ttologs">
+    <image src="https://s4.ax1x.com/2022/01/18/7BVtH0.png"></image>
+    <text>树洞小纸条</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function">
+    <image src="https://s4.ax1x.com/2022/01/18/7BVB34.png"></image>
+    <text>我的表情</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function" catchtap="qtologs">
+    <image src="https://s4.ax1x.com/2022/01/18/7BVrv9.png"></image>
+    <text>情绪小知识</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+</view>

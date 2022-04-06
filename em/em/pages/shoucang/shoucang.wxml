@@ -1,0 +1,25 @@
+<view class="juxin">
+  <text style="margin-right: 500rpx;">收藏圈</text>
+  <text style="color: #838383; font-size: 28rpx;">查看全部></text>
+  <view class="collection">
+    <image class="square" src="/images/圈.png" style="margin-left: 70rpx; margin-top: 10rpx;"></image>
+    <image class="shipin" src="/images/视频问诊.png"></image>
+    <text>元气视频</text>
+  </view>
+  <view class="collection1">
+     <image class="square" src="/images/圈2.png" style="position: relative; margin-left: 290rpx; bottom: 148rpx;"></image>
+     <image class="tupian" src="/images/图片.png"></image>
+     <text>元气图片</text>
+  </view>
+  <view class="collection2">
+     <image class="square" src="/images/圈3.png" style="position: relative; margin-left: 510rpx; bottom: 296rpx;"></image>
+     <image class="yinfu" src="/images/音符.png"></image>
+     <text>元气音乐</text>
+  </view>
+  <view class="collection3">
+    <image class="square" src="/images/背景4.png" style="position: relative; margin-left: 70rpx; bottom: 280rpx;"></image>
+    <image class="biji" src="/images/笔记.png"></image>
+    <text>元气笔记</text>
+  </view>
+  <view class="collection4">+</view>
+</view>

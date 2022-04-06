@@ -1,0 +1,11 @@
+.content{
+  color: #777;
+  margin-top: 500rpx;
+  margin-left: 155rpx;
+  text-align: center;
+  width: 500rpx;
+  font-size: 30rpx;
+}
+.yidong{
+  size: 30rpx;
+}

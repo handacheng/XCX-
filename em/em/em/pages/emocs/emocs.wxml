@@ -1,0 +1,28 @@
+<view catchtap="tologs">
+    <image class="b1" src="https://s4.ax1x.com/2022/01/18/7BZKq1.jpg"></image>
+  <view class="wenzi">
+  <text>小e助手</text>
+  </view>
+    <image class="tu" src="https://s4.ax1x.com/2022/01/18/7BZ9rn.png" ></image>
+</view>
+<view>
+  <image class="b2" src="https://s4.ax1x.com/2022/01/18/7BZ1IK.jpg"></image>
+  <view class="wenzi2">
+    <text>心理测试</text>
+  </view>
+  <image class="tu2" src="/images/心里测试.png"></image>
+</view>
+<view>
+  <image class="b3" src="/images/抑郁测试背景图.png"></image>
+  <view class="wenzi3">
+    <text>抑郁测试</text>
+  </view>
+  <image class="tu3" src="/images/抑郁测试.png" ></image>
+</view>
+<view>
+  <image class="b4" src="/images/情绪测试背景图.png"></image>
+  <view class="wenzi4">
+    <text>情绪测试</text>
+  </view>
+  <image class="tu4" src="/images/情绪测试.png"></image>
+</view>

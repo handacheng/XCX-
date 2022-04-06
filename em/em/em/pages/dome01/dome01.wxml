@@ -1,0 +1,15 @@
+<view class="zong">
+<view class="text">
+<text>您的私人心情追踪器</text>
+</view>
+<view class="tu">
+  <image src=""></image>
+</view>
+<view class="tiop">
+<text>你感觉如何?</text>
+</view>
+<view class="en" catchtap="tologs">
+<button type="default" size="mini"> 很好</button>
+<button type="default" size="mini">不好</button>
+</view>
+</view>

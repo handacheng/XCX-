@@ -1,0 +1,74 @@
+/* pages/xiaozhitiao/xiaozhitiao.wxss.xzt1{
+  height: 80px;
+  width: 96%;
+  margin-top: 4%;
+   margin-left: 2%;
+  border: 1px solid rgb(114, 112, 112);
+  border-radius: 10px;
+  background-color: rgb(178, 228, 247);
+  }
+  .wz1{
+  font-size: 13px;
+  color: black;
+  margin-top: 4%;
+  margin-left: 1%;
+  }
+  .xzt2{
+    height: 60px;
+  width: 96%;
+  margin-top: 4%;
+   margin-left: 2%;
+  border: 1px solid rgb(114, 112, 112);
+  border-radius: 10px;
+  background-color: rgb(230, 214, 244);
+  }
+  .wz2{
+  font-size: 13px;
+  color: black;
+  margin-top: 4%;
+  margin-left: 1%;
+  }
+  .qx{
+  
+    width: 16px;
+    height: 16px;
+    margin-left: 90%;
+    margin-top: 0%;
+  } */
+  /* .content{
+    color: #777;
+    margin-top: 500rpx;
+    margin-left: 155rpx;
+    text-align: center;
+    width: 500rpx;
+    font-size: 30rpx;
+  }
+  .yidong{
+    size: 30rpx;
+  } */
+  .bianji{
+    margin-top: 10rpx;
+   font-size: 32rpx;
+   margin-left: 660rpx;
+}
+.kuang{
+    background-color: rgba(194, 217, 238, 80%);
+    width: 690rpx;
+    height: 150rpx;
+    padding: 10rpx;
+    margin-top: 30rpx;
+    margin-left: 20rpx;
+    border-right: 2rpx solid #bbb;
+    border-bottom: 2rpx solid #bbb;
+    box-shadow: 6rpx 10rpx 12rpx rgb(0, 0, 0,0.4);
+    display: flex;
+}
+
+.kuang image{
+  display: flex;
+  margin-left: 650rpx;
+  width: 30rpx;
+  height: 30rpx;
+  line-height: 40rpx;
+  text-align: right;
+}

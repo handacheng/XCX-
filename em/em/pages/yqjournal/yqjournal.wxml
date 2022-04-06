@@ -1,0 +1,16 @@
+
+<view class="bianji">编辑</view>
+<view  wx:for="{{haha}}" wx:key="index" id="kuangjia">
+   <view style="margin-left: 60rpx;  width: 580rpx;border: 2rpx solid #bbb;"></view>
+   <view>
+   <view id="weizi">
+      <image class="bq1" src="https://s3.bmp.ovh/imgs/2022/03/8319c759bcc61bbc.png"></image>
+
+      <text style="margin-left: 40rpx;margin-top: 10rpx; font-size: 38rpx;color: green;">{{item.title}}</text>
+      <text style="font-size: 24rpx;color: #616161; margin-left: 15rpx;margin-top: 25rpx;">{{item.addtime}}</text>
+   </view>
+   <image class="del" data-id="{{item.id}}" bindtap='shanchu' src="https://s3.bmp.ovh/imgs/2022/03/95cab370c78adddf.png"></image>
+   <text style="position: relative;bottom: 50rpx; margin-left: 160rpx; font-size: 26rpx;">{{item.concent}}</text>
+  </view>
+  </view>
+<button  class="add"  catchtap="tologs"  style="width: 90rpx;padding: 0;height: 90rpx;">+</button>

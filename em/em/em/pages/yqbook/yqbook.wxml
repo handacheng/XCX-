@@ -1,0 +1,58 @@
+<view class="sousuokuang">
+   <image src="/images/搜索.png"></image>
+   <input class="sousuo" type="text" placeholder="心灵导师：情绪管理全书"/>
+</view>
+<view class="wenzihang">
+  <text>分类</text>
+  <text>排行</text>
+  <text>书单</text>
+</view>
+<view class="tuijian">
+   <text>您看过情绪emo，为您推荐</text>
+   <text1>更多 ></text1>
+</view>
+<view class="xinlingdaoshi">
+   <image class="tupian" src="https://s4.ax1x.com/2022/01/18/7BVIvd.jpg"></image>
+   <text style="position: relative; left: 20rpx; top: -116rpx">心灵导师：情绪管理全书</text>
+   <view class="wenzi" style="position: relative; left: 230rpx; top: -120rpx; width: 438rpx; height: 64rpx; display: block; box-sizing: border-box">爱、接纳和宽恕这类的积极情绪能刺激免疫系统</view>
+   <!-- <image class="yuedu" src="/images/阅读.png" style="position: relative; left: 230rpx; top: -114rpx"></image> -->
+   <view catchtap="tologs">
+   <text1 style="position: relative; left: 232rpx; top: -124rpx">去阅读</text1>
+</view>
+</view>
+<view class="juxin" style="width: 750rpx; height: 205rpx; display: flex; box-sizing: border-box">
+<view style="margin-left: 20rpx; margin-right: 50rpx;">
+  <image class="qingshang" src="/images/情商.jpg" style="position: relative; left: -12rpx; top: 0rpx"></image>
+  <text class="wz" style="position: relative; left: -12rpx; top: -144rpx">情商</text>
+  <view class="sign" style="position: relative; left: 148rpx; top: -116rpx">心理学、成功学</view>
+</view>
+<view>
+   <image class="bubaoyuan" src="/images/不抱怨的世界.jpg" style="position: relative; left: 54rpx; top: 0rpx"></image>
+   <text class="wz" style="position: relative; left: 54rpx; top: -144rpx">不抱怨的世界</text>
+   <view class="sign1" style="position: relative; left: 242rpx; top: -116rpx">心灵励志</view>
+</view>
+</view>
+<view class="juxin" style="width: 750rpx; height: 205rpx;">
+<view style="margin-left: 20rpx; margin-right: 50rpx;">
+   <image class="kongju" src="/images/直面内心恐惧.jpg" style="position: relative; left: -12rpx; top: 2rpx"></image>
+   <view class="wz" style="width: 184rpx; position: relative; left: 148rpx; top: -186rpx; height: 88rpx; display: block; box-sizing: border-box">直面内心的恐惧</view>
+   <view class="sign2" style="position: relative; left: 148rpx; top: -184rpx">心理学</view>
+</view>
+<view style="position: relative; left: 120rpx; height: 180rpx;">
+   <image class="chongtu" src="/images/我们内心的冲动.jpg"></image>
+   <view class="wz" style="width: 200rpx; position: relative; left: 154rpx; top: -188rpx">我们内心的冲突</view>
+   <view class="sign3" style="position: relative; left: 154rpx; top: -186rpx">心理自助</view>
+</view>
+</view>
+<view style="width: 750rpx; border: 1rpx solid #bbb; margin-top: 15rpx;"></view>
+<view class="emotime">
+   <text>我的emo时间</text>
+   <text1>更多 ></text1>
+</view>
+<view style="margin-top: 40rpx; height: 310rpx;"> 
+  <image class="jieyou" src="/images/解忧杂货铺.jpg"></image>
+  <text class="wenz">解忧杂货店</text>
+  <view class="jiexi" style="position: relative; left: 234rpx; top: -232rpx">我想在这本书中写的，是无论身处哪个国家，哪个时代的人都一定会抱有的‘梦想’和‘烦恼’。</view>
+  <view class="start" style="position: relative; left: 430rpx; top: -211rpx">开始阅读</view>
+  <view class="insigth" style="position: relative; left: 620rpx; top: -378rpx">心灵励志</view>
+</view>

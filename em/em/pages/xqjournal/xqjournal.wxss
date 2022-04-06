@@ -1,0 +1,63 @@
+
+.kuang {
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+  margin-left: 10rpx;
+
+  border-radius: 20rpx;
+  border: 2rpx solid #bbbbbb;
+  width: 715rpx;
+  height: 500rpx;
+}
+
+
+.tixing {
+  margin-left: 40rpx;
+  width: 180rpx;
+  font-size: 40rpx;
+  text-shadow: 6rpx 5rpx 4rpx orange;
+}
+
+.alarmclock {
+  margin-left: 30rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.receivetips {
+  bottom: 100rpx;
+  padding-bottom: 20rpx;
+  background-color: #d6f4ed;
+  border-radius: 50rpx;
+}
+
+.punchclock {
+  position: relative;
+  bottom: 260rpx;
+  margin-left: 530rpx;
+  width: 200rpx;
+  font-size: 23rpx;
+}
+
+.xinqingjilu {
+  background-color: #d6f4fd;
+  color: #777;
+  width: 355rpx;
+  height: 180rpx;
+  border-radius: 24rpx;
+  padding-top: 70rpx;
+  padding-left: 50rpx;
+  padding-right: 25rpx;
+  margin-left: 150rpx;
+  margin-top: 50rpx;
+}
+
+.viewrecord {
+  background-color: #ecc6c6;
+  position: relative;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  padding-top: 10rpx;
+  bottom: 385rpx;
+  left: 250rpx;
+}

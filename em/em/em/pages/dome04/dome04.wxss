@@ -1,0 +1,218 @@
+/* pages/find/find.wxss */
+.wenzi{
+  font-size: 36rpx;
+  margin-left: 22rpx;
+  margin-top: 10rpx;
+}
+.sousuo{
+  width: 584rpx;
+  height: 60rpx;
+  position: absolute;
+  margin-left: 140rpx;
+  top: 0rpx;
+  border-bottom: 2rpx solid #4f4b4b;
+  font-size: 24rpx;
+}
+.tu{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  margin-left: 674rpx;
+  top: 10rpx;
+}
+.activities{
+  display: flex;
+  height: 140rpx;
+}
+.wenzi1{
+  font-size: 28rpx;
+  margin-top: 40rpx;
+  margin-left: 22rpx;
+}
+#juxin{
+  width: 258rpx;
+  height: 114rpx;
+  position: relative;
+  margin-top: 20rpx;
+  border-radius: 24rpx;
+  margin-right: 20rpx;
+}
+.wz{
+  font-size: 26rpx;
+  width: 152rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 43rpx;
+  left: 10rpx;
+  letter-spacing: 2rpx;
+  color: #6f6b6b;
+}
+.tu1{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 150rpx;
+  margin-top: 25rpx;
+}
+#juxin2{
+  width: 258rpx;
+  height: 114rpx;
+  margin-top: 20rpx;
+  border-radius: 24rpx;
+  margin-right: 20rpx;
+}
+.wz2{
+  font-size: 26rpx;
+  width: 152rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 43rpx;
+  left: 310rpx;
+  letter-spacing: 2rpx;
+  color: #6f6b6b;
+}
+.tu2{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  margin-top: 25rpx;
+  left: 430rpx;
+}
+#juxin3{
+  width: 258rpx;
+  height: 114rpx;
+  margin-top: 20rpx;
+  border-radius: 24rpx;
+  margin-right: 20rpx;
+}
+.wz3{
+  font-size: 26rpx;
+  width: 152rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 43rpx;
+  left: 580rpx;
+  letter-spacing: 2rpx;
+  color: #6f6b6b;
+}
+.tu3{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  margin-top: 25rpx;
+  left: 695rpx;
+}
+#juxin4{
+  width: 258rpx;
+  height: 114rpx;
+  margin-top: 20rpx;
+  border-radius: 24rpx;
+  margin-right: 20rpx;
+}
+.wz4{
+  font-size: 26rpx;
+  width: 152rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 43rpx;
+  left: 850rpx;
+  letter-spacing: 2rpx;
+  color: #6f6b6b;
+}
+.tu4{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  margin-top: 25rpx;
+  left: 980rpx;
+}
+.wenzi2{
+  font-size: 28rpx;
+  position: absolute;
+  margin-left: 22rpx;
+  top: 300rpx;
+  display: flex;
+}
+.gd{
+  margin-left: 550rpx;
+}
+.shipin{
+  width: 750rpx;
+  height: 404rpx;
+  position: absolute;
+  top: 350rpx;
+}
+.biao{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  margin-left: 670rpx;
+  top: 760rpx;
+}
+.xinqingbaike text{
+  font-size: 28rpx;
+  position: absolute;
+  top: 855rpx;
+  margin-left: 40rpx;
+  letter-spacing: 2rpx;
+}
+.wenzi3{
+  font-size: 30rpx;
+  position: absolute;
+  top: 910rpx;
+  margin-left: 20rpx;
+}
+.wenzi4{
+  position: absolute;
+  margin-left: 80rpx;
+  top: 950rpx;
+  color: #e63679;
+}
+.tw{
+  display: flex;
+}
+.baike image{
+  position: absolute;
+  width: 585rpx;
+  height: 304rpx;
+  border-radius: 24rpx;
+  margin-top: 740rpx;
+  margin-left: 30rpx;
+}
+.baike text{
+  position: absolute;
+  width: 505rpx;
+  height: 250rpx;
+  margin-top: 765rpx;
+  margin-left: 75rpx;
+}
+.baike1 image{
+  position: absolute;
+  width: 585rpx;
+  height: 304rpx;
+  border-radius: 24rpx;
+  margin-left: 30rpx;
+  margin-top: 1070rpx;
+}
+.baike1 text{
+  position: absolute;
+  width: 505rpx;
+  height: 250rpx;
+  margin-top: 1095rpx;
+  margin-left: 75rpx;
+}
+.baike2 image{
+  position: absolute;
+  width: 585rpx;
+  height: 304rpx;
+  border-radius: 24rpx;
+  margin-left: 30rpx;
+  margin-top: 1400rpx;
+}
+.baike2 text{
+  position: absolute;
+  width: 505rpx;
+  height: 250rpx;
+  margin-left: 75rpx;
+  margin-top: 1435rpx;
+}

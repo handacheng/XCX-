@@ -1,0 +1,40 @@
+/* pages/note add/note add.wxss */
+.beijing{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  width: 650rpx;
+  height: 1050rpx;
+  border-radius: 40rpx;
+  background-color: #c2d9ee;
+}
+.weizhi{
+  padding-top: 50rpx;
+}
+
+/* .touxiang{
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+  margin-left: 225rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+} */
+.wen{
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+  border-radius: 30rpx;
+  width: 550rpx;
+  height: 380rpx;
+  background-color: rgb(255, 255, 255);
+}
+.wz{
+  white-space: normal;
+  padding: 30rpx;
+  font-size: 28rpx;
+}
+.anniu{
+  background-color: #2f70e9;
+  border-radius: 50rpx;
+  margin-top: 100rpx;
+  color: white;
+}

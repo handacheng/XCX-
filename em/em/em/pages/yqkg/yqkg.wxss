@@ -1,0 +1,50 @@
+.CreateRoom{
+  position: relative;
+  font-size: 35rpx;
+  border: 2rpx solid #bbb;
+  border-radius: 20rpx;
+  background-color: #ffe5ef;
+  left: 30rpx;
+}
+.Quickjoin{
+  font-size: 35rpx;
+  border: 2rpx solid #bbb;
+  border-radius: 20rpx;
+  background-color: #b8caff;
+  right: 15rpx;
+}
+.juxin{
+  font-size: 28rpx;
+  background-color: #ffe5ef;
+  padding-left: 15rpx;
+  width: 70rpx;
+  border: 2rpx solid #ddd;
+  border-radius: 15rpx;
+}
+.liangefang{
+  display: flex;
+}
+.juxin02{
+  margin-top: 40rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #ddd;
+  padding: 25rpx;
+  width: 300rpx;
+  height: 230rpx;
+}
+.wenzi{
+  position: relative;
+  font-size: 33rpx;
+}
+.maikefeng{
+  width: 70rpx;
+  height: 70rpx;
+  position: relative;
+  left: 240rpx;
+  top: 90rpx;
+}
+.touxiang{
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50rpx;
+}

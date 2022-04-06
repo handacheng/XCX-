@@ -1,0 +1,19 @@
+<!-- <view> -->
+ 
+ <!-- <view  class="xzt1">
+ <text selectable="user-select" class="wz1">三模考试结果下来了，分数很低，感觉自己离成功越来越远，每一次的努力都仅仅收获到一点点，该怎样努力才能全力以赴奔向自己心仪的大学</text>
+ 
+ <image class="qx" src="https://s4.ax1x.com/2022/01/10/7AHvSU.png"></image>
+ </view>
+ <view  class="xzt2">
+ <text selectable="user-select" class="wz2">中考失败，去了职高，但是里面的同学都没有努力学习的，我该怎么办</text>
+ <image class="qx" src="https://s4.ax1x.com/2022/01/10/7AHvSU.png"></image>
+ </view>
+  -->
+
+ <!-- </view> -->
+ <view wx:for="{{haha}}" wx:key="index">{{item.title}}</view>
+<view class="content" wx:if="{{haha==null}}">
+ <text>你还没有写小纸条哦，快去记录小纸条吧!</text>
+</view>
+<button class="yidong" catchtap="tologs">添加</button>

@@ -1,0 +1,97 @@
+.b1{
+  width: 336rpx;
+  height: 328rpx;
+  border-radius: 24rpx;
+  position: relative;
+  margin-top: 80rpx;
+  margin-left: 40rpx;
+}
+.tu{
+  width: 180rpx;
+  height: 180rpx;
+  position: absolute;
+  top: 120rpx;
+  left: 140rpx;
+  opacity: 0.3;
+}
+.wenzi{
+font-size: 45rpx;
+letter-spacing: 4rpx;
+position: absolute;
+margin-left: 50rpx;
+top: 320rpx;
+color: white;
+}
+.b2{
+  width: 294rpx;
+  height: 382rpx;
+  border-radius: 24rpx;
+  position: absolute;
+  margin-left: 424rpx;
+  top:60rpx;
+}
+.wenzi2{
+  font-size: 45rpx;
+  width: 44rpx;
+  height: 256rpx;
+  position: absolute;
+  margin-left:454rpx;
+  top: 170rpx;
+  color: white;
+}
+.tu2{
+  width: 160rpx;
+  height: 160rpx;
+  position: absolute;
+  margin-left: 540rpx;
+  top: 110rpx;
+  opacity: 0.3;
+}
+.b3{
+  width: 686rpx;
+  height: 308rpx;
+  border-radius: 24rpx;
+  position: absolute;
+  margin-left: 38rpx;
+  margin-top: 80rpx;
+}
+.wenzi3{
+  font-size: 45rpx;
+  letter-spacing: 4rpx;
+  position: absolute;
+  margin-left: 480rpx;
+  margin-top: 150rpx;
+  color: white;
+}
+.tu3{
+  width: 386rpx;
+  height: 186rpx;
+  position: absolute;
+  margin-left: 80rpx;
+  margin-top: 170rpx;
+  opacity: 0.3;
+}
+.b4{
+  width: 686rpx;
+  height: 278rpx;
+  border-radius: 24rpx;
+  position: absolute;
+  margin-left: 38rpx;
+  margin-top: 458rpx;
+}
+.wenzi4{
+  font-size: 45rpx;
+  letter-spacing: 4rpx;
+  color: white;
+  position: absolute;
+  margin-left: 436rpx;
+  margin-top: 560rpx;
+}
+.tu4{
+  width: 220rpx;
+  height: 220rpx;
+  position: absolute;
+  margin-left: 110rpx;
+  margin-top: 490rpx;
+  opacity: 0.3;
+}

@@ -1,0 +1,26 @@
+<view>
+<myComponent id="myComponent"></myComponent>
+</view>
+<view class="tixing">
+  <text>让我来提醒你吧</text>
+</view>
+<image class="alarmclock" src="/images/闹钟.png"></image>
+<button class="receivetips" style="width: 240rpx;">接收提醒</button>
+<view class="punchclock">
+  <text>坚持每天打卡，把心情藏进日记里吧！</text>
+</view>
+<view style="width: 700rpx; border: 2rpx solid #bbb; margin-left: 25rpx; position: relative; bottom: 70rpx;"></view>
+  <text style="font-size: 38rpx; position: relative; bottom: 50rpx; margin-left: 20rpx;">记录</text>
+<view wx:for="{{navlist}}" wx:key="index">
+<view>{{item.text}}</view>
+</view>
+<view style="display: flex; margin-left: 20rpx;margin-bottom: 30rpx;margin-top: 30rpx;">
+  <text>标题：</text>
+  <input type="text" name='biaoti' class="inputGoods" placeholder="请输入你的标题" bindinput="biaotiInput"/>
+</view>
+<view class="kuang" >
+   <textarea type="text" name='neirong' class="inputGoods" placeholder="请输入你的内容" bindinput="neirongInput"></textarea>
+</view>
+	 <button class="loginBtn" size="default" bindtap="clickButton" form-type="submit">提交</button>
+
+

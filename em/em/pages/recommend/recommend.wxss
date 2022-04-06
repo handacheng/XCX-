@@ -1,0 +1,57 @@
+.header{
+width: 100%;
+height: 370rpx;
+}
+.header image{
+  width: 100%;
+  height:100%;
+}
+.list{
+  padding:0 20rpx;
+  border-radius: 50rpx;
+  background:#fff;
+}
+.listheader{
+  height: 8rpx;
+  line-height:80rpx
+}
+.listheader .changemore{
+  float: right;
+}
+.listscroll{
+height: calc(100vh - 450rpx);
+}
+.scrollitem{
+  position: relative;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.scrollitem image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.musicinfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  max-width: 400rpx;
+
+}
+.musicinfo text{
+height: 40rpx;
+line-height: 40rpx;
+font-size: 24rpx;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.scrollitem .iconfont{
+  position: absolute;
+  right: 0;
+  top: 18rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: right;
+}

@@ -1,0 +1,50 @@
+<view class="shudongwu">
+   <text>树洞屋</text>
+   <image src="/images/信箱 .png"></image>
+</view>
+<view style="position: relative; width: 750rpx; height: 846rpx; display: block; box-sizing: border-box;top: 50rpx">
+  <image class="touxiang" src="/images/头像5.jpg" style="position: relative; left: 337rpx; top: 6rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 208rpx; top: 34rpx">爱摔跤的小香菇</text>
+  <image class="touxiang" src="/images/头像6.jpg" style="position: relative; left: -96rpx; top: 54rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -212rpx; top: 90rpx">小栗子的栗</text>
+  <image class="touxiang" src="/images/头像1.jpg" style="position: relative; left: -272rpx; top: 216rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -336rpx; top: 248rpx">李某</text>
+  <image class="touxiang" src="/images/头像14.jpg" style="position: relative; left: -302rpx; top: 176rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -374rpx; top: 202rpx">小香菇</text>
+  <image class="touxiang" src="/images/头像7.jpg" style="position: relative; left: 34rpx; top: 94rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -42rpx; top: 130rpx">韩呆呆</text>
+  <image class="touxiang" src="/images/头像2.jpg" style="position: relative; left: -4rpx; top: 270rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -92rpx; top: 304rpx">爆炒香菇</text>
+  <image class="touxiang" src="/images/头像3.jpg" style="position: relative; left: -306rpx; top: 264rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -370rpx; top: 290rpx">欻欻</text>
+  <image class="touxiang" src="/images/头像10.jpg" style="position: relative; left: -396rpx; top: 410rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -498rpx; top: 444rpx">牛牛马马老67</text>
+  <image class="touxiang" src="/images/头像16.jpg" style="position: relative; left: 225rpx; top: 298rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 148rpx; top: 324rpx">米老鼠</text>
+  <image class="touxiang" src="/images/头像5.jpg" style="position: relative; left: 202rpx; top: 262rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 148rpx; top: 292rpx">67</text>
+  <image class="touxiang" src="/images/头像12.jpg" style="position: relative; left: 48rpx; top: 443rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -24rpx; top: 468rpx">韩不纯</text>
+  <image class="touxiang" src="/images/头像17.jpg" style="position: relative; left: -77rpx; top: 136rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -149rpx; top: 160rpx">爱哭宝</text>
+  <image class="touxiang" src="/images/头像13.jpg" style="position: relative; left: -185rpx; top: -34rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -256rpx; top: 0rpx">apply</text>
+  <image class="touxiang" src="/images/头像11.jpg" style="position: relative; left: 545rpx; top: -211rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 466rpx; top: -176rpx">小呆呆</text>
+  <image class="touxiang" src="/images/头像15.jpg" style="position: relative; left: 315rpx; top: -18rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 249rpx; top: 2rpx">yyds</text>
+  <image class="touxiang" src="/images/头像19.jpg" style="position: relative; left: 353rpx; top: -72rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 287rpx; top: -54rpx">smile</text>
+  <image class="touxiang" src="/images/头像10.jpg" style="position: relative; left: 143rpx; top: 48rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 42rpx; top: 72rpx">happy day</text>
+  <image class="touxiang" src="/images/头像4.jpg" style="position: relative; left: -6rpx; top: 198rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: -62rpx; top: 232rpx">111</text>
+  <image class="touxiang" src="/images/头像20.jpg" style="position: relative; left: 466rpx; top: 70rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 416rpx; top: 104rpx">dl</text>
+  <image class="touxiang" src="/images/头像9.jpg" style="position: relative; left: 455rpx; top: 214rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 395rpx; top: 253rpx">嘻嘻</text>
+</view>
+<view style="display: flex; position: relative; left: 0rpx; top: 50rpx">
+   <button class="sentout" style="width: 270rpx; height: 100rpx; position: relative; left: 15rpx; top: 0rpx">发一个</button>
+   <button class="pickup" style="width: 270rpx; height: 100rpx;">捡一个</button>
+</view>

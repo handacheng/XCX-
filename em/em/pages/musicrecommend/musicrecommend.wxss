@@ -1,0 +1,180 @@
+.wenzi{
+  font-size: 36rpx;
+  margin-left: 22rpx;
+  margin-top: 10rpx;
+}
+.sousuo{
+  width: 584rpx;
+  height: 70rpx;
+  position: absolute;
+  margin-left: 140rpx;
+  top: 0rpx;
+  /* border-bottom: 2rpx solid #4f4b4b; */
+  font-size: 28rpx;
+}
+.tu{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  margin-left: 674rpx;
+  top: 10rpx;
+}
+.banners{
+  width: 100%;
+  height: 390rpx;
+  
+}
+
+.banners image{
+  width: 100%;
+  height: 100%;
+}
+.h {
+  width: 700rpx;
+  height: 130rpx;
+  background-color: #f7f7f7;
+  margin-top: 60rpx;
+  float: left;
+  margin-left: 25rpx;
+  border-radius: 20rpx;
+  border: 1px ridge black;
+}
+
+.i {
+  width: 110rpx;
+  height: 110rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  float: left;
+}
+
+.j {
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 330rpx;
+  margin-top: 0rpx;
+}
+.j1 {
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 70rpx;
+  margin-top: 30rpx;
+}
+
+.k1 {
+  display: flex;
+  justify-content: center;
+  margin: -90rpx 210rpx 10rpx 0rpx ;
+  /* padding: -100rpx 0 0 0; */     
+}
+.k {
+  display: flex;
+  justify-content: center;
+  margin: 0rpx 220rpx 0 0rpx ;
+  /* padding: -100rpx 0 0 0; */
+}
+.music{
+  display: flex;
+}
+.music1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.music1 text{
+  font-size: 23rpx;
+}
+.music1 image{
+  width: 60rpx;
+  height: 60rpx;
+  display: inline-block;
+  overflow: hidden;
+}
+.xihuan{
+  height: 110rpx;
+  background-color: rgb(236, 236, 236);
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  position: relative;
+  display: flex;
+  margin-bottom: 20rpx;
+  border-radius: 15rpx;
+}
+
+.xihuan image{
+  margin-top: 5rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.musicinfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  max-width: 400rpx;
+
+}
+.musicinfo text{
+height: 50rpx;
+line-height: 50rpx;
+font-size: 28rpx;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.cainixihuan{
+  display: flex;
+  background-color: rgb(224, 221, 221);
+  border-radius: 30rpx;
+  width: 180rpx;
+  height: 60rpx;
+}
+.xihuan .cainixihuan{
+  position: absolute;
+  right: 50rpx;
+margin-top: 30rpx;
+  line-height: 55rpx;
+  text-align: right;
+  font-size: 24rpx;
+}
+.cainixihuan image{
+width: 50rpx;
+height: 50rpx;
+}
+.scrollitem{
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  position: relative;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.scrollitem image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.musicinfoo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  max-width: 400rpx;
+
+}
+.musicinfoo text{
+height: 40rpx;
+line-height: 40rpx;
+font-size: 24rpx;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.scrollitem .iconfonts{
+  position: absolute;
+  right: 0;
+  top: 18rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: right;
+}

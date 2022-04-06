@@ -1,0 +1,89 @@
+<view class="wenzi">
+  <text>搜索</text>
+</view>
+<view>
+  <input class="sousuo" type="text" placeholder="搜索你喜欢的歌曲"/>
+  <image class="tu" src="/images/搜索.png"></image>
+</view>
+<text>\n</text>
+<view class="indexcontainer">
+  <swiper class="banners" indicator-dots='true' indicator-color='white'	indicator-active-color='grey' autoplay="true" interval="2000">
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BP9k4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BPMhd.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BP5g1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7Bi9Df.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<text>\n</text>
+<view class="music"> 
+<view class="music1"catchtap="tologs">
+<image src="/images/每日推荐.png"></image>
+<text>每日推荐</text>
+</view>
+<view class="music1">
+<image src="/images/元气歌单.png"></image>
+<text>元气歌单</text>
+</view>
+<view class="music1">
+<image src="/images/元气K歌.png"></image>
+<text>元气K歌</text>
+</view>
+<view class="music1">
+<image src="/images/最近播放.png"></image>
+<text>最近播放</text>
+</view>
+</view>
+<text>\n</text>
+<view class="xihuan">
+<image src="https://s4.ax1x.com/2022/01/18/7Bi9Df.jpg"></image>
+<view class="musicinfo">
+<text class="musicname">我喜欢的音乐</text>
+<text class="author">已下载0首</text>
+   </view>
+   <view class="cainixihuan">
+     <image src="https://s4.ax1x.com/2022/01/18/7BSMQK.png"></image>
+     <text decode="{{true}}">&nbsp;</text>
+     <text>猜你喜欢</text>
+   </view>
+</view>
+<text>\n</text>
+<view class="scrollitem">
+   <image src="/images/音乐音乐.jpg"></image>
+   <view class="musicinfoo">
+<text class="musicnameid">光辉岁月</text>
+<text class="authors">beyond</text>
+   </view>
+   <image class="iconfonts" src="https://s4.ax1x.com/2022/01/18/7BpynO.png"></image>
+</view>
+<view class="scrollitem">
+   <image src="/images/音乐音乐.jpg"></image>
+   <view class="musicinfoo">
+<text class="musicnameid">光辉岁月</text>
+<text class="authors">beyond</text>
+   </view>
+   <image class="iconfonts" src="https://s4.ax1x.com/2022/01/18/7BpynO.png"></image>
+</view>
+<view class="scrollitem">
+   <image src="/images/音乐音乐.jpg"></image>
+   <view class="musicinfoo">
+<text class="musicnameid">光辉岁月</text>
+<text class="authors">beyond</text>
+   </view>
+   <image class="iconfonts" src="https://s4.ax1x.com/2022/01/18/7BpynO.png"></image>
+</view>
+<view class="scrollitem">
+   <image src="/images/音乐音乐.jpg"></image>
+   <view class="musicinfoo">
+<text class="musicnameid">光辉岁月</text>
+<text class="authors">beyond</text>
+   </view>
+   <image class="iconfonts" src="https://s4.ax1x.com/2022/01/18/7BpynO.png"></image>
+</view>

@@ -1,0 +1,3 @@
+
+<view wx:for="{{haha}}" wx:key="index"><view> {{item.concent}}</view></view>
+<view wx:for="{{haha}}" wx:key="index"><view> {{item.addtime}}</view></view>

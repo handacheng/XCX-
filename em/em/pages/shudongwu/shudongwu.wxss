@@ -1,0 +1,33 @@
+.shudongwu text{
+  font-size: 60rpx;
+  letter-spacing: 4rpx;
+  color: #a19f9f;
+  margin-left: 290rpx;
+  margin-right: 160rpx;
+}
+.shudongwu image{
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+  top: 18rpx;
+}
+.touxiang{
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+.sentout{
+  background-color: #b4c5e6;
+  color: white;
+  padding-top: 25rpx;
+  border-radius: 50rpx;
+  left: 30rpx;
+}
+.pickup{
+  background-color: #b4c5e6;
+  color: white;
+  padding-top: 25rpx;
+  border-radius: 50rpx;
+  right: 10rpx;
+}

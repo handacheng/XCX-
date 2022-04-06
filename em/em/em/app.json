@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/dome03/dome03",
+    "pages/music/music",
+    "pages/shoucang/shoucang",
+    "pages/recommend/recommend",
+    "pages/musicrecommend/musicrecommend",
+    "pages/dome05/dome05",
+    "pages/register/register",
+    "pages/emocs/emocs",
+    "pages/dome04/dome04",
+    "pages/yqjournal/yqjournal",
+    "pages/xqjournal/xqjournal",
+    "pages/dome02/dome02",
+    "pages/dome01/dome01",
+    "pages/yqkg/yqkg",
+    "pages/qxknowledge/qxknowledge",
+    "pages/shudongwu/shudongwu",
+    "pages/yqbook/yqbook",
+    "pages/tianjiariji/tianjiariji",
+    "pages/tianjiazhitiao/tianjiazhitiao",
+    "pages/wenzhang/wenzhang",
+    "pages/ceshi/ceshi",
+    "pages/xiaozhitiao/xiaozhitiao"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffff",
+    "navigationBarTitleText": "元气emo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+      "pagePath": "pages/dome03/dome03",
+      "text": "首页",
+      "iconPath": "images/首页.png",
+      "selectedIconPath": "images/首页 (1).png"
+    },
+    {
+      "pagePath": "pages/dome04/dome04",
+      "text": "发现",
+      "iconPath": "images/发现.png",
+      "selectedIconPath": "images/发现1.png"
+    },
+    {
+      "pagePath": "pages/dome05/dome05",
+      "text": "我的",
+      "iconPath": "images/我的.png",
+      "selectedIconPath": "images/我的1.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
