@@ -1,0 +1,58 @@
+<view>
+  <scroll-view class="content" scroll-y="{{true}}" scroll-into-view="{{viewId}}" scroll-top="{{scrollTop}}"
+    bindscroll="scroll">
+    <block wx:for="{{msgList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <view class="">
+        <block wx:if="{{item.type===0}}">
+          <view class="service-msg">
+            <view class="msg-content">
+              <image class="head-img" src="../../images/小e.png"></image>
+              <view class="msg-text">{{item.msg}}</view>
+            </view>
+          </view>
+        </block>
+        <block wx:else>
+          <block wx:if="{{item.type===2}}">
+            <view class="answer-list">
+              <block wx:for="{{item.answers}}" wx:for-item="answer" wx:for-index="answerInde" wx:key="answerInde">
+                <view class="answer-text" catchtap="sendAnswer" data-answer="{{answer}}">{{answer}}</view>
+              </block>
+            </view>
+          </block>
+          <block wx:else>
+            <block wx:if="{{item.type===1}}">
+              <view class="custom-msg">
+                <view class="msg-content">
+                  <view class="msg-text">{{item.msg}}</view>
+                  <image class="head-img" src="../../images/头像8.jpg"></image>
+                </view>
+              </view>
+            </block>
+          </block>
+        </block>
+      </view>
+    </block>
+    <block wx:if="{{showResult}}">
+      <view class="test-result">
+        <view class="result-header">
+          <block wx:if="{{testResult.name}}">
+            <view class="title">{{"抑郁程度："+testResult.name}}</view>
+          </block>
+          <view class="redo-btn" catchtap="redo">
+            重新测试</view>
+        </view>
+        <view class="result-content">
+          <block wx:for="{{testResult.content}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+            <rich-text style="margin-bottom:20rpx;display:block;" nodes="{{item}}" class=""></rich-text>
+          </block>
+        </view>
+        <view class="more-btn">
+          <view class="btn" catchtap="goToKnowledge">了解更多调节情绪小知识</view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="send-msg"><input class="send-input" placeholder="输入您的答案" model:value="{{inputValue}}" bindinput="setInput" />
+    <button class="send-btn" disabled="{{!inputValue}}" catchtap="sendMsg">发送</button>
+  </view>
+</view>

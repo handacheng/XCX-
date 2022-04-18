@@ -1,0 +1,57 @@
+<view class="wenzi">
+  <text>发现</text>
+</view>
+<view>
+  <input class="sousuo" type="text" placeholder="热门话题"/>
+  <image class="tu" src="https://s1.ax1x.com/2022/04/16/LYhVRs.png"></image>
+</view>
+<view class="wenzi1">
+  <text>热门活动</text>
+</view>
+<scroll-view class="activities" enable-flex scroll-x>
+<view  catchtap="mtologs">
+<image id="juxin" src="https://s1.ax1x.com/2022/04/16/LYhJzR.png"></image>
+  <text class="wz">畅想音乐释放一天疲劳</text>
+<image class="tu1" src="https://s1.ax1x.com/2022/04/16/LYh2OP.png"></image>
+</view>
+<!-- <view catchtap="kgtologs"> 
+<image id="juxin2" src="/images/背景2.png"></image>
+  <text class="wz2">放松心情
+  一起K歌吧</text>
+ <image class="tu2" src="/images/k歌.png"></image>
+</view> -->
+<view catchtap="sftologs">
+<image id="juxin3" src="https://s1.ax1x.com/2022/04/16/LY4SfJ.png"></image>
+    <text class="wz3">每日一阅
+    新鲜心情</text>
+  <image class="tu3" src="https://s1.ax1x.com/2022/04/16/LY4km6.png"></image>
+</view>
+<view  catchtap="sdwtologs">
+  <image id="juxin4" src="https://s1.ax1x.com/2022/04/16/LY41nP.png"></image>
+    <text class="wz4">与知友分享心情</text>
+  <image class="tu4" src="https://s1.ax1x.com/2022/04/16/LY4wXq.png"></image>
+</view>
+</scroll-view>
+<view class="wenzi2">
+  <text>精选</text>
+  <!-- <view class="gd">
+    <text>更多 >></text>
+  </view> -->
+</view>
+<video class="shipin" src='https://vd3.bdstatic.com/mda-khw55nmguc6fv6ih/sc/mda-khw55nmguc6fv6ih.mp4?v_from_s=hkapp-haokan-hna&auth_key=1648623417-0-0-0fbbbd65a3062814137d8f117e048801&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=1617184842&vid=6218328243017211017&abtest=100815_1-101130_1-101245_5-17451_2&klogid=1617184842'></video>
+<!-- <image class="biao" src="/images/评论.png"></image> -->
+<view style="width: 750rpx; position: absolute; top: 825rpx; border: 1rpx solid #b2b7be;"></view>
+<view class="xinqingbaike">
+  <text>心情百科</text>
+  <view style="width: 300rpx;border: 1rpx solid #b2b7be; position: absolute; top: 900rpx; margin-left: 20rpx;"></view>
+</view>
+<view>
+  <text class="wenzi3">保持好心情很重要吗？</text>
+  <text class="wenzi4">重要</text>
+</view>
+<!-- <scroll-view class="tw" enable-flex> -->
+
+<view wx:for="{{haha}}" wx:key="index" class="baike">
+  <image src="https://s1.ax1x.com/2022/04/16/LY4H4e.png"></image>
+  <text>{{item.title}}</text>
+</view>

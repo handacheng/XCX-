@@ -1,0 +1,12 @@
+<view class="shudongwu">
+   <text>树洞屋</text>
+
+</view>
+<view style="position: relative; width: 750rpx; height: 846rpx; display: block; box-sizing: border-box;top: 50rpx">
+  <image class="touxiang" src="https://s1.ax1x.com/2022/04/16/LYQ3Ct.jpg" style="position: relative; left: 455rpx; top: 214rpx"></image>
+  <text style="font-size: 24rpx; position: relative; left: 395rpx; top: 253rpx">偷壳</text>
+</view>
+<view style="display: flex; position: relative; left: 0rpx; top: 50rpx">
+   <button catchtap="tologs" class="sentout" style="width: 270rpx; height: 100rpx; position: relative; left: 15rpx; top: 0rpx">发一个</button>
+   <button catchtap="stologs" class="pickup" style="width: 270rpx; height: 100rpx;">捡一个</button>
+</view>

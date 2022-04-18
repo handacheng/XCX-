@@ -1,0 +1,7 @@
+<view wx:for="{{haha}}" wx:key="index">{{item.id}}</view>
+<view wx:for="{{haha}}" wx:key="index">{{item.content}}</view>
+<!-- <view class="content" wx:if="{{haha==null}}">
+ <text>你还没有写心情日记哦，快去记录今天的心情吧!</text>
+</view> -->
+<view wx:for="{{haha}}" wx:key="index">{{item.rightanswer}}</view>
+<view wx:for="{{haha}}" wx:key="index">{{item.erroranswer}}</view>

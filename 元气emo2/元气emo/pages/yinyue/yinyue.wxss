@@ -1,0 +1,55 @@
+.gezi{
+  margin: 30rpx 0 15rpx 40rpx;
+  /* border-bottom: 3rpx solid rgb(221, 221, 221); */
+}
+.admin{
+  margin: 10rpx 0 0 0;
+}
+
+
+.searchContainer {
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 25rpx;
+  left: 140rpx;
+  /* z-index: 20; */
+}
+
+.clearIcon {
+  position: absolute;
+  top: 45rpx;
+  right: 45rpx;
+  /* z-index: -1; */
+}
+
+.searchContainer {
+  display: inline-block;
+  width: 93%;
+}
+
+.searchContainer input {
+  display: inline-block;
+  background: #efefef;
+  text-align: center;
+  color: #333;
+  font-size: 15px;
+  height: 70rpx;
+  outline: none;
+  border-radius: 50rpx;
+  width: 100%;
+  margin: 0 0 0 5px;
+}
+
+input {
+  padding: -50px 0 0 0;
+}
+
+.placerStyle {
+  color: #999;
+  font: 14px;
+}

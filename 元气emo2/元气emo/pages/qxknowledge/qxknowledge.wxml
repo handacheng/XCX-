@@ -1,0 +1,19 @@
+<view>
+<view  class="tj">
+<text selectable="user-select">推荐：</text>
+</view>
+<view class="tp">
+<image class="tp1" src="https://s4.ax1x.com/2022/01/10/7Ax9g0.jpg"></image>
+</view>
+<view class="wz1">
+<text selectable="user-select">1、情绪管理方法</text>
+</view>
+<text>\n</text>
+<view class="wz2">
+<text selectable="user-select">2、情绪运动</text>
+</view>
+<text>\n</text>
+<view class="wz2">
+<text selectable="user-select">3、认识情绪</text>
+</view>
+</view>

@@ -1,0 +1,63 @@
+<view class="c"  wx:if="{{userInfo}}">
+  <image class="touxiang  " src="{{user.avatarUrl}}" mode="aspectFit" />
+  <view class="name">{{user.nickName}}</view>
+  <view class="sex">男</view>
+  
+</view>
+<!--如果用户没有授权，显示登陆按钮  -->
+<view  wx:if="{{!(userInfo)}}" class="btn-login">
+	<!-- <button type="primary" bindtap="getUserProfile">登陆</button> -->
+  <!-- <button class="mini-btn" type="warn" size="mini" bindtap="getUserProfile">按钮</button> -->
+  <view class="ppp">
+  <image class="ttt" src="https://s1.ax1x.com/2022/04/16/LYb9U0.png"></image>
+  <!-- <button class="ooo" style="color: black;" type="default" bindtap="getUserProfile">登录</button> -->
+  <button class="ooo" type="warn" style="color: black;background-color: white;width: 220rpx;" bindtap="getUserProfile">登录</button>
+  <!-- <button class="ooo"  style="width:260rpx;height: 90rpx;"bindtap="getUserProfile">登录</button> -->
+</view>
+</view>
+<text>\n</text>
+<view class="divlinex"></view>
+<view class="meimages">
+  <view class="metu" catchtap="stologs">
+  <image src="https://s4.ax1x.com/2022/01/18/7BE5mq.png"></image>
+  <!-- <text wx:for="{{haha}}" wx:key='*this'>{{item.name}}</text> -->
+  <text>元气日记</text>
+</view>
+<view class="metu" catchtap="ctologs">
+  <image src="https://s1.ax1x.com/2022/04/14/L1eIoD.png"></image>
+  <text>愿望屋</text>
+</view>
+</view>
+<text>\n</text>
+<view class="divlinex"></view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="information">
+  <view class="function" catchtap="sftologs">
+    <image src="https://s1.ax1x.com/2022/03/23/q199KK.png"></image>
+    <text>emo书圈</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function"  catchtap="ttologs">
+    <image src="https://s1.ax1x.com/2022/03/23/q19OL8.png"></image>
+    <text>树洞小纸条</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function">
+    <image src="https://s1.ax1x.com/2022/03/23/q1PCAe.png"></image>
+    <text>我的表情</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+  <text>\n</text>
+  <view class="divlinex"></view>
+  <view class="function" catchtap="qtologs">
+    <image src="https://s1.ax1x.com/2022/03/23/q19cxx.png"></image>
+    <text>情绪小知识</text>
+    <!-- <image class="arrow" src="/images/箭头.png"></image> -->
+  </view>
+</view>

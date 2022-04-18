@@ -1,0 +1,58 @@
+<view class="tttt"style="background:url('https://s1.ax1x.com/2022/04/16/LYWWct.jpg') ">
+<view class="wenzi">
+  <text>搜索</text>
+</view>
+<view>
+  <input class="sousuo" type="text" placeholder="搜索你喜欢的歌曲"/>
+  <image class="tu" src="https://s1.ax1x.com/2022/04/16/LYhVRs.png"></image>
+</view>
+<text>\n</text>
+<view class="indexcontainer">
+  <swiper class="banners" indicator-dots='true' indicator-color='white'	indicator-active-color='grey' autoplay="true" interval="2000">
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BP9k4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BPMhd.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7BP5g1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+       <image src="https://s4.ax1x.com/2022/01/18/7Bi9Df.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- <view class="music"> 
+<view class="music1"catchtap="tologs">
+<image src="/images/每日推荐.png"></image>
+<text>每日推荐</text>
+</view>
+<view class="music1">
+<image src="/images/元气歌单.png"></image>
+<text>元气歌单</text>
+</view>
+<view class="music1">
+<image src="/images/元气K歌.png"></image>
+<text>元气K歌</text>
+</view>
+<view class="music1">
+<image src="/images/最近播放.png"></image>
+<text>最近播放</text>
+</view>
+</view> -->
+<view class="h">
+  <image src="//s4.ax1x.com/2022/02/23/bCEgrn.png" class="i"></image>
+  <image wx:if="{{userInfo}}" bindtap="pause" src="https://s3.bmp.ovh/imgs/2022/04/17/478242916d593fa0.png" class="j"></image>
+  <image wx:if="{{!(userInfo)}}" bindtap="play" src="https://s1.ax1x.com/2022/04/17/LNnNfx.png" class="j"></image>
+<navigator hover-class="none" style="display: inline-block;" url="../../pages/yinyue/yinyue">
+    <image src="https://s3.bmp.ovh/imgs/2022/04/17/cd9995e5492dafc3.png" class="j1"></image>
+  </navigator>
+  <view>
+    <p wx:if="{{userInfo}}" class="k1">正在播放 :</p>
+    <p wx:if="{{!(userInfo)}}" class="k1">已暂停 :</p>
+    <p class="k">{{music.songName}}</p>
+  </view>
+</view>
+</view>

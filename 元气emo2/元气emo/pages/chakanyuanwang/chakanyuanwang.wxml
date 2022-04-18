@@ -1,0 +1,10 @@
+<!--pages/yuanwangchi/yuanwangchi.wxml-->
+<image class="ywc" src="https://s1.ax1x.com/2022/04/16/LYQZjO.jpg"></image>
+<view class="yuanwang">
+   <view style="display: flex;">
+      <image src="https://s1.ax1x.com/2022/04/16/LYQ3Ct.jpg"></image>
+      <view class="nc">小栗子爱吃饭</view>
+   </view>
+   <view class="neirong">我是xxxx,愿望是xxxxxx，为什么是</view>
+   <button class="bangzhu" style="width: 100rpx;height: 50rpx;">帮助</button>
+</view>

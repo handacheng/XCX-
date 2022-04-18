@@ -1,0 +1,45 @@
+/* pages/addxinyuan/addxinyuan.wxss */
+.shuru{
+    background-color: rgba(255, 255, 255, 0.514);
+    padding-left: 8rpx;
+    margin-top: 10rpx;
+    margin-left: 5rpx;
+    width: 450rpx;
+    height: 50rpx;
+    border: 1rpx solid #bbb;
+    border-radius: 10rpx;
+    box-shadow: 2rpx 4rpx 12rpx 0 rgb(0,0,0,0.4);
+  }
+  .wen{
+    background-color: rgba(255, 255, 255, 0.514);
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+    width: 700rpx;
+    height: 600rpx;
+    border: 1rpx solid #bbb;
+    border-radius: 20rpx;
+    box-shadow: 4rpx 6rpx 12rpx 0 rgb(0,0,0,0.4);
+  }
+  .neirong{
+    padding: 20rpx;
+    white-space: normal;
+    font-size: 30rpx;
+  }
+  .dizhi{
+    padding: 20rpx;
+    white-space: normal;
+    font-size: 30rpx;
+  }
+  .tijiao{
+    padding: 10rpx;
+    margin-top: 40rpx;
+    letter-spacing: 10rpx;
+    font-size: 40rpx;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(219, 100, 20, 0.863);
+  }
+  .bei{
+    height: 100%;
+    opacity:0.9;
+  }

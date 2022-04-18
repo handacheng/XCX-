@@ -1,0 +1,22 @@
+<view class='searchContainer'>
+  <icon wx:if="{{!search}}" class='searchIcon' type='search' color='#999' size='23'></icon>
+  <!-- <icon bindtap='clearInput' wx:else class='clearIcon' type='clear' color='#999' size='30'></icon> -->
+  <input type='text' confirm-type='search' bindinput="handleinput" bindconfirm="sousuo" placeholder-class='placerStyle'
+    placeholder='输入音乐名'></input>
+</view>
+
+<view wx:for="{{music}}" wx:key="*this" class="a">
+  <view bindtap="tiao" data-id="{{item.hash}}" class="gezi">
+    <view>
+      <text style="font-size:35rpx">{{item.songname}}</text>
+    </view>
+    <view class="admin">
+      <text style="color: rgb(94, 94, 80);">{{item.filename}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="y">
+  <text class="z">已经到底了--</text>
+</view>

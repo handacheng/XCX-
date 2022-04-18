@@ -1,0 +1,8 @@
+<view class="bianji">编辑</view>
+<view wx:for="{{haha}}" wx:key="index" class="kuang">
+<view>
+ <text  style="font-size: 30rpx;">{{item.title}}</text>
+   <image data-id="{{item.id}}" bindtap='shanchu' src="https://s3.bmp.ovh/imgs/2022/03/95cab370c78adddf.png">
+   </image>
+</view>
+</view>

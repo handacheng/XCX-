@@ -1,0 +1,9 @@
+.beijing{
+  height: 100%;
+  background: rgb(240, 198, 218);
+}
+.ti{
+  display: block;
+  text-align: center;
+  font-size: 50rpx;
+}

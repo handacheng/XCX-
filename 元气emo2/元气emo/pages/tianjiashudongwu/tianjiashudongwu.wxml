@@ -1,0 +1,13 @@
+<view wx:for="{{navlist}}" wx:key="index">
+<view>{{item.text}}</view>
+</view>
+<view class="beijing">
+  <view class="weizhi">
+   <image style="width: 200rpx;height: 200rpx; border-radius: 50%;margin-left: 35%; " class="avatar" src='{{naaa}}'></image>
+   <view class="nickname" style="font-size: 48rpx;font-weight: 600;letter-spacing: 4rpx;text-align: center;">{{maaa}}</view>
+  </view>
+   <view class="wen">
+    <textarea class="wz" placeholder="快把你的烦恼吐露出来吧~" style="width: 500rpx;height: 360rpx;" bindinput="shudongxiaozhitiaoInput" type="text" name='shudongxiaozhitiao'></textarea>
+   </view>
+   <button class="anniu" style="width: 250rpx;" size="default" bindtap="clickButton" form-type="submit">发一个</button>
+</view>

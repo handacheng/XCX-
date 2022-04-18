@@ -1,0 +1,25 @@
+.tj{
+  font-size: 40rpx;
+  margin-top: 6%;
+  margin-left: 13%;
+  font-weight: 900;
+}
+.tp{
+  margin-top: 4%
+}
+.tp1{
+  border-radius: 15rpx;
+  height: 440rpx;
+  width: 700rpx;
+  margin-left: 4%;
+}
+.wz1{
+  font-size: 40rpx;
+  margin-top: 8%;
+  margin-left: 13%;
+}
+.wz2{
+  font-size: 40rpx;
+  margin-top: 2%;
+  margin-left: 13%;
+}

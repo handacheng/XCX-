@@ -1,0 +1,15 @@
+<!--pages/xuyuan/xuyuan.wxml-->
+
+<image class="xy" src="https://s1.ax1x.com/2022/04/16/LYCmnK.jpg"></image>
+<view class="xx">
+    <view class="tuwen">
+    <view class="aixin">爱心</view>
+    <image src="https://s1.ax1x.com/2022/04/16/LYCQtH.jpg"></image>
+    <view class="or"></view>
+    <view class="gongyi">公益</view>
+    </view>
+   <button class="ywc" catchtap="tologs"  style="width:260rpx;height: 90rpx;">愿望池</button>
+   <button class="xuyuan" catchtap="stologs"  style="width:260rpx;height: 90rpx;">许愿</button>
+
+</view>
+<view class="wen">我向流星许愿，愿你是那颗流星，实现我的心愿。</view>
